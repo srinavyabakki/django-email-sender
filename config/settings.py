@@ -30,7 +30,7 @@ SECRET_KEY = 'django-insecure-fvrml-wx7g1x70m#ol%#!%k^7)uz4i5uqelgorin#f2f2e7@!n
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['django-email-sender-p3rx.onrender.com']
 
 
 # Application definition
