@@ -30,12 +30,12 @@ body{
 
     h1{
     font-family:"Segoe UI", Arial, sans-serif;
-    font-size:42px;
-    font-weight:600;
+    font-size:45px;
+    font-weight:700;
     color:#1e3a8a;
     text-align:center;
-    letter-spacing:2px;
-    margin-bottom:25px;
+    letter-spacing:3px;
+    margin-bottom:30px;
 }
     form{
     width:530px;
@@ -54,37 +54,37 @@ body{
 
 form div{
     display:flex;
-    align-items:center;
+    flex-direction:column;
+    align-items:flex-start;
+    width:100%;
     margin-bottom:10px;
-    gap:5px;
+    gap:8px;
 }
 label{
-    display:inline-block;
-    width:100px;
-    text-align:right;
-    font-size:25px;
-    font-weight:bold;
+    width:auto;
+    text-align:left;
+    font-size:20px;
+    font-weight:600;
     color:black;
-    margin-right:10px;
-}
-
-input,
-textarea{
-    width:300px;
+    margin-right:0;
+}  
+input[type="submit"]{
+    width:220px;
     padding:14px;
     font-size:18px;
+    font-weight:600;
+    color:white;
+    background:#2563eb;
     border:none;
-    border-radius:5px;
-}
-input[type="submit"]{
-    width:180px;
-    padding:12px;
-    font-size:13px;
-    border:none;
-    border-radius:5px;
+    border-radius:8px;
     cursor:pointer;
-    margin-left:110px;}
-
+    margin:15px auto 0;
+    transition:0.3s ease;
+}
+input[type="submit"]:hover{
+    background:#1d4ed8;
+    transform:scale(1.03);
+}
 textarea{
     height:120px;
     resize:none;
