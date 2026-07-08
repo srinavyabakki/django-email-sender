@@ -14,28 +14,38 @@
     }
 
 body{
-min-height:100vh;
-background:url("https://images.pexels.com/photos/2680270/pexels-photo-2680270.jpeg") center/cover no-repeat;
-font-family:Arial,sans-serif;
-display:flex;
-flex-direction:column;
-justify-content:center;
-align-items:center;
+    min-height:100vh;
+    background:
+    linear-gradient(rgba(255,255,255,0.65),rgba(255,255,255,0.65)),
+    url("https://images.unsplash.com/photo-1557683316-973673baf926");
+
+    background-size:cover;
+    background-position:center;
+    background-repeat:no-repeat;
+
+    font-family:Arial,sans-serif;
+
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
 }
 
 h1{
-color:white;
+color:black;
 font-size:40px;
-margin-bottom:25px;
+margin-bottom:30px;
+text align:center;
 }
 
 form{
-width:420px;
-padding:30px;
-background:rgba(255,255,255,0.20);
-backdrop-filter:blur(10px);
-border-radius:15px;
-box-shadow:0 0 25px black;
+    width:420px;
+    padding:20px;
+    background:transparent;
+    box-shadow:none;
+    backdrop-filter:none;
+    align-self:flex-start;
+    margin-left:80px;
 }
 
 form div{
@@ -44,9 +54,9 @@ margin-bottom:15px;
 
 label{
 display:block;
-color:white;
+color:black;
 font-size:18px;
-margin-bottom:5px;
+margin-bottom:8px;
 }
 
 input,textarea{
@@ -75,7 +85,7 @@ transition:0.3s;
 }
 
 input[type="submit"]:hover{
-background:#00c853;
+background:#f2f7f3;
 transform:scale(1.05);
 }
     
