@@ -13,33 +13,34 @@
     margin:0;
     padding:0;
     box-sizing:border-box;
-    font-family:'Poppins',sans-serif;
+    font-family:Arial, Helvetica, sans-serif;
 }
 
 body{
+    min-height:100vh;
     display:flex;
     justify-content:center;
     align-items:center;
-    min-height:100vh;
-    background:linear-gradient(135deg,#4F8EF7,#7F7FD5,#91EAE4);
+    background:linear-gradient(135deg,#a8edea,#fed6e3);
 }
 
 .container{
-    width:420px;
+    width:450px;
     background:rgba(255,255,255,0.95);
     padding:35px;
-    border-radius:18px;
-    box-shadow:0 15px 35px rgba(0,0,0,.18);
+    border-radius:20px;
+    box-shadow:0 15px 35px rgba(0,0,0,0.15);
 }
 
-.container h1{
+h1{
     text-align:center;
     color:#2563eb;
-    font-size:32px;
-    margin-bottom:8px;
+    font-size:34px;
+    font-weight:bold;
+    margin-bottom:10px;
 }
 
-.container p{
+p{
     text-align:center;
     color:#666;
     margin-bottom:30px;
@@ -49,17 +50,17 @@ body{
 label{
     display:block;
     font-size:15px;
-    font-weight:600;
+    font-weight:bold;
     color:#333;
     margin-bottom:8px;
+    margin-top:15px;
 }
 
 input,
 textarea{
     width:100%;
     padding:14px;
-    margin-bottom:22px;
-    border:1px solid #d6d6d6;
+    border:1px solid #ddd;
     border-radius:10px;
     outline:none;
     font-size:15px;
@@ -68,24 +69,25 @@ textarea{
 
 input:focus,
 textarea:focus{
-    border-color:#4F8EF7;
-    box-shadow:0 0 10px rgba(79,142,247,.3);
+    border-color:#2563eb;
+    box-shadow:0 0 10px rgba(37,99,235,.25);
 }
 
 textarea{
-    resize:none;
     height:140px;
+    resize:none;
 }
 
 button{
     width:100%;
-    padding:14px;
+    margin-top:25px;
+    padding:15px;
     border:none;
     border-radius:10px;
-    background:linear-gradient(90deg,#2563eb,#4F8EF7);
+    background:linear-gradient(135deg,#2563eb,#4f8ef7);
     color:#fff;
-    font-size:16px;
-    font-weight:600;
+    font-size:17px;
+    font-weight:bold;
     cursor:pointer;
     transition:.3s;
 }
@@ -93,7 +95,7 @@ button{
 button:hover{
     transform:translateY(-3px);
     box-shadow:0 10px 20px rgba(37,99,235,.35);
-    background:linear-gradient(90deg,#1d4ed8,#2563eb);
+background:linear-gradient(135deg,#1d4ed8,#2563eb);
 }
 </style>
 
